@@ -1,0 +1,5 @@
+--Consulta simples de cidades americancas com mais de 100000 habitantes
+
+SELECT ID, NAME, COUNTRYCODE, DISTRICT, POPULATION
+FROM CITY
+WHERE POPULATION >= 100000 AND COUNTRYCODE = 'USA';
